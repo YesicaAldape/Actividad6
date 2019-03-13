@@ -8,6 +8,7 @@
 <%@ attribute name="fadeIn" type="java.lang.Boolean" rtexprvalue="true"
               required="false" %>
 <%@ include file="/WEB-INF/includes/base.jsp" %>
+
 <!DOCTYPE html>
 <html lang="${not empty lang ? lang : 'en_US'}">
 	<title>${title}</title>
