@@ -13,8 +13,8 @@
 			pretium mauris vitae, pretium arcu.
 		</b:jumbotron>
 		<%-- TagFile jumbotron <div class="alert alert-success|warning|danger|info" >--%>
-		<b:alert type="success" dismissable="true">Success Alert! </b:alert>
-		<b:alert type="info" dismissable="false">Informational Alert!</b:alert>
+		<b:alert type="success" dismissable="true" fadeIn="false">Success Alert! </b:alert>
+		<b:alert type="info" dismissable="false" fadeIn="false">Informational Alert!</b:alert>
 		<b:alert type="danger" dismissable="true" fadeIn="true">
 			Danger Error! Click <a href="#">here</a> to debug.
 		</b:alert>
