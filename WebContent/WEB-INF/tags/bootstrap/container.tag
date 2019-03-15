@@ -1,7 +1,7 @@
 <%@ tag language="java" pageEncoding="UTF-8"%>
 <%@ tag body-content="scriptless"
         trimDirectiveWhitespaces="true" %>
-<%@ attribute name="fluid" type="java.lang.String" rtexprvalue="true"
+<%@ attribute name="fluid" type="java.lang.Boolean" rtexprvalue="true"
               required="true" %>
 <%@ include file="/WEB-INF/includes/base.jsp" %>
 <!DOCTYPE html>
